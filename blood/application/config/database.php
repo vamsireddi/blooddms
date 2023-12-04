@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
+	'hostname' => 'blooddb.mysql.database.azure.com',
+	'username' => 'ram',
+	'password' => 'pass@1234',
 	'database' => 'blood',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
