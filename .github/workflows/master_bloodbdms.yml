@@ -33,7 +33,8 @@ jobs:
 
       - name: Zip artifact for deployment
         run: zip release.zip ./* -r
-
+      - name: Run PHP script
+        run: php blood/index.php
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
         with:
